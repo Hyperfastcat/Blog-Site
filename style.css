@@ -40,9 +40,11 @@ body {
 
 header img {
     width: 50px;
-
+    position: absolute;
+    margin: 20px;
 }
 
+na
 
 /***  NAVIGATION BAR ***/
 nav {
