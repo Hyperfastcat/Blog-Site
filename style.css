@@ -1,0 +1,86 @@
+/**************************/
+/***** INDEX ME HTML ******/
+/**************************/
+:root {
+    --brown: #503b2d;
+    --purple: #2f2238;
+
+    /* This is an example */
+    /* Create your own color variables */
+    /* At most I recommend using 3 colors 
+      that will be used accross your website */
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* Choose your font family here
+        or you can add it later */
+}
+
+body {
+    background-color: var(--purple);
+    /* the bg color would be the same as your 
+        quote section bg color */
+}
+
+
+
+/***  LANDING PAGE ***/
+.ladingPage {
+    background-image: url(img/Whiskers-3.png);
+    background-repeat: no-repeat;
+    min-height: 500px;
+    width: 100%;
+    opacity: 0.5;
+    position: absolute;
+    z-index: -1;
+}
+
+header img {
+    width: 50px;
+
+}
+
+
+/***  NAVIGATION BAR ***/
+nav {
+    display: flex;
+    height: 80px;
+    background-color: blue;
+}
+
+
+
+/***  TITLE ***/
+
+
+
+/***  QUOTE SECTION ***/
+
+
+
+/***  CARDS ***/
+.column img {
+    height: 100px
+}
+
+
+/***  LAST SECTION ***/
+
+
+
+/***  FOOTER ***/
+
+
+
+
+
+
+
+/**************************/
+/***** ABOUT ME HTML ******/
+/**************************/
+/* Use CSS from previous CSS to 
+      add and edit here */
