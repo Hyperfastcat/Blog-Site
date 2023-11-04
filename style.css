@@ -28,9 +28,11 @@ body {
 
 
 /***  LANDING PAGE ***/
-.ladingPage {
-    background-image: url(img/Whiskers-3.png);
+.landingPage {
+    background-image: url("img/Whiskers-3.png");
     background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
     min-height: 500px;
     width: 100%;
     opacity: 0.5;
@@ -44,18 +46,49 @@ header img {
     margin: 20px;
 }
 
-/* .navLinks {} */
+.navLinks {
+    display: flex;
+    list-style-type: none;
+
+}
+
+ul.navLinks li {
+    padding-bottom: 0;
+    padding-top: 0;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+ul.navLinks a {
+    color: var(--brown);
+    font-size: 25px;
+    text-decoration: none;
+}
+
+ul.navLinks a:hover {
+    text-decoration: wavy underline;
+}
 
 /***  NAVIGATION BAR ***/
 nav {
     display: flex;
+    justify-content: flex-end;
     height: 80px;
-    background-color: blue;
+    padding-top: 35px;
+    padding-bottom: 35px;
+    padding-left: 5%;
+    padding-right: 5%;
 }
 
 
 
 /***  TITLE ***/
+header h1 {
+    color: var(--brown);
+    text-align: center;
+    margin-top: 150px;
+    font-size: 50px;
+}
 
 
 
