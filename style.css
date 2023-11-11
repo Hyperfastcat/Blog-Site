@@ -2,8 +2,9 @@
 /***** INDEX ME HTML ******/
 /**************************/
 :root {
-    --brown: #503b2d;
-    --purple: #2f2238;
+    --cream: #fef2ea;
+    --grey: #12121399;
+    --grey2: #121213;
 
     /* This is an example */
     /* Create your own color variables */
@@ -20,7 +21,7 @@
 }
 
 body {
-    background-color: var(--purple);
+    background-color: var(--cream);
     /* the bg color would be the same as your 
         quote section bg color */
 }
@@ -29,10 +30,11 @@ body {
 
 /***  LANDING PAGE ***/
 .landingPage {
-    background-image: url("img/Whiskers-3.png");
+    background-image: url("img/ye-shoe-circle_2.jpeg");
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
+    background-attachment: fixed;
     min-height: 500px;
     width: 100%;
     opacity: 0.5;
@@ -60,7 +62,7 @@ ul.navLinks li {
 }
 
 ul.navLinks a {
-    color: var(--brown);
+    color: var(--grey2);
     font-size: 25px;
     text-decoration: none;
 }
@@ -84,7 +86,7 @@ nav {
 
 /***  TITLE ***/
 header h1 {
-    color: var(--brown);
+    color: var(--grey2);
     text-align: center;
     margin-top: 150px;
     font-size: 50px;
@@ -94,7 +96,7 @@ header h1 {
 
 /***  QUOTE SECTION ***/
 .quoteSection {
-    background-color: var(--purple);
+    background-color: var(--cream);
     margin-top: 170px;
     padding-top: 35px;
     padding-bottom: 35px;
@@ -104,7 +106,7 @@ header h1 {
 }
 
 q {
-    color: var(--brown);
+    color: var(--grey);
     font-style: courier;
 }
 
@@ -117,20 +119,20 @@ q {
 }
 
 .row {
-    background-color: var(--brown);
+    background-color: var(--grey);
     display: flex;
     /* flex-wrap: ; */
     justify-content: space-evenly;
 }
 
 .column {
-    background-color: var(--purple);
+    background-color: var(--cream);
     width: 400px;
     margin: 50px 0px;
 }
 
 .content-wrap {
-    color: var(--brown);
+    color: var(--grey);
     margin: 20px 20px 20px 20px;
 }
 
@@ -149,8 +151,8 @@ p {
 
 /***  FOOTER ***/
 footer {
-    background-color: #2a272d;
-    color: black;
+    background-color: var(--grey);
+    color: var(--cream);
     text-align: center;
     padding: 20px 0px 30px 0px;
     margin-top: 20px;
@@ -169,7 +171,7 @@ footer {
       add and edit here */
 
 .about-me {
-    background-color: var(--purple);
+    background-color: var(--cream);
     display: flex;
     justify-content: space-evenly;
     text-align: center;
@@ -179,6 +181,12 @@ footer {
     margin-left: 50px;
 }
 
+.about-me h1 {
+    width: 150px;
+}
+
 .about-me p {
+    width: 150px;
     margin-right: 50px;
+    color: var(--grey2);
 }
