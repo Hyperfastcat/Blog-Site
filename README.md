@@ -6,7 +6,7 @@ My Blog site is about 3 shoe companies aswell as an about me section containing 
 
 Check out my website: [Link](https://hyperfastcat.github.io/Blog-Site/)
 
-<img src="./img/WebsiteSS" width="800px" alt="Screenshot of published website">
+<img src="./img/WebSiteSS" width="800px" alt="Screenshot of published website">
 
 ## Authors
 Contributors names
